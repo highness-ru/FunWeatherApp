@@ -49,6 +49,7 @@ struct WeatherView: View {
                         Text("No weather loaded yet.")
                     }
                 }
+                .screenBackground("pexels-connorscottmcmanus-14319807")
                 .padding()
             }
             .task {

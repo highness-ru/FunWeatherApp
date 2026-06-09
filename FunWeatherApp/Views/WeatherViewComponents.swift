@@ -45,7 +45,12 @@ extension WeatherView {
                         .foregroundStyle(.secondary)
                 }
             }
-            .frame(height: 400)
+           .frame(height: 400)
+           .cornerRadius(20)
+           .overlay(
+               RoundedRectangle(cornerRadius: 20)
+                .stroke(.clear, lineWidth: 5)
+           )
         }
     }
     
